@@ -1,0 +1,15 @@
+#常用的Hadoop命令
+#格式 hadoop fs -<命令> <目标>
+
+#查看hdfs版本，在hadoop/sbin目录下使用
+	hdfs version
+#查看hdfs系统状态
+	hdfs dfsadmin -report
+#目录操作
+	hadoop fs -ls /
+	hadoop fs -mkdir /test
+	hadoop fs -rm -r /test
+#文件操作
+	hadoop fs -put test.txt test (上传)
+	hadoop fs -get /test/test.txt / (下载)
+	hadoop fs -cat /test/test.txt (查看)
