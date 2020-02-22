@@ -8,7 +8,7 @@ Second,the ssh.sh tells you how to generate public and private keys and log in l
 
 Third,we need to create some directories to hold the necessary configuration and data,you can check the filemod.sh.
 
-Fourth,We need to set some environment variables about the JAVA_HOME and HADOOP_HOME,you can refer to the environment.sh.
+Fourth,we need to set some environment variables about the JAVA_HOME and HADOOP_HOME,you can refer to the environment.sh.
 
 Fifth,you can refer to the etchdfs.sh to modify the HDFS configuration file.
 
